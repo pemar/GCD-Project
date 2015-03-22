@@ -119,4 +119,6 @@ for (sbj in 1:30){
         smy_tbl <- rbind(smy_tbl,som,use.names=TRUE)
     }
 }
+
 ## END: 'smy_tbl' is the data table looked for.
+write.table(smy_tbl,file="tidy.txt",row.name=FALSE)
